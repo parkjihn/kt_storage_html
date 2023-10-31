@@ -1,0 +1,51 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>LocalStorage Table</title>
+<link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+
+<body>
+
+    <section class="storage_select">
+       
+        <label for="storage_header">Выберите тип хранилища:</label>
+         <select id="storage" name="storage_type">
+        <option value="local_storage">Local Storage</option>
+        <option value="session_storage">Session Storage</option>
+     
+</select>
+    </section>
+
+    <section class="input_section">
+        <input type="text" class="input_key" placeholder="Ключ">
+        <input type="text" class="input_text" placeholder="Значение">
+        <button class="input_button">Сохранить</button>
+    </section>
+
+    <table>
+        <thead>
+            <tr>
+                <th>№</th>
+                <th>Ключ</th>
+                <th>Значение</th>
+                <th>Удалить</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+               
+            </tr>
+        </tbody>
+    </table>
+
+    <button class="button_clear">Очистить всё</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
